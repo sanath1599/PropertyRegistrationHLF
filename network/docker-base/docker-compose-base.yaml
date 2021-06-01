@@ -60,7 +60,7 @@ services:
       - CORE_PEER_ID=peer1.registrar.property-registration-network.com
       - CORE_PEER_ADDRESS=peer1.registrar.property-registration-network.com:8051
       - CORE_PEER_LISTENADDRESS=0.0.0.0:8051
-      - CORE_PEER_CHAINCODEADDRESS=peer0.registrar.property-registration-network.com:8053
+      - CORE_PEER_CHAINCODEADDRESS=peer1.registrar.property-registration-network.com:8053
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:8053
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer1.registrar.property-registration-network.com:8051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.registrar.property-registration-network.com:7051
